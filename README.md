@@ -1,10 +1,10 @@
-# 🏙️ LA Crime Prediction with Perceptron
+# LA Crime Prediction with Perceptron
 
 **Machine learning project predicting crime severity in Los Angeles using open data (2020–Present) and a calibrated Perceptron model.**
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project explores **spatial**, **temporal**, and **demographic** patterns in crime incidents across Los Angeles and builds a full **machine learning pipeline** to classify whether an incident falls under **Part 1 (serious)** or **Part 2 (non-serious)** crime categories.
 
@@ -12,7 +12,7 @@ It is designed as a **reproducible, portfolio-grade data science project** using
 
 ---
 
-## 🧩 Features & Workflow
+## Features & Workflow
 
 | Stage | Description |
 |--------|--------------|
@@ -28,7 +28,7 @@ It is designed as a **reproducible, portfolio-grade data science project** using
 
 ---
 
-## 📊 Example Results
+## Example Results
 
 | Metric | Perceptron | Dummy (Majority) | Dummy (Random) |
 |:-------|:-----------:|:----------------:|:---------------:|
@@ -40,19 +40,9 @@ It is designed as a **reproducible, portfolio-grade data science project** using
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - **Crime hotspots** cluster near downtown and along major highways.  
 - **Peak crime hours:** evenings between 7 PM and 1 AM.  
 - **Weapon type**, **premise**, and **time of day** are strong predictors of severity.  
 - The calibrated perceptron outperforms dummy baselines by a large margin.
-
----
-
-## 🧰 Installation & Environment
-
-### 1️⃣ Clone the repo
-
-```bash
-git clone https://github.com/prans-code/la-crime-prediction-perceptron.git
-cd la-crime-prediction-perceptron
