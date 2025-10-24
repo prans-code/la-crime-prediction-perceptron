@@ -46,3 +46,5 @@ It is designed as a **reproducible, portfolio-grade data science project** using
 - **Peak crime hours:** evenings between 7 PM and 1 AM.  
 - **Weapon type**, **premise**, and **time of day** are strong predictors of severity.  
 - The calibrated perceptron outperforms dummy baselines by a large margin.
+
+The dataset was uploaded to: 'https://media.githubusercontent.com/media/syed-arib-hasan/ps/refs/heads/main/Crime_Data_from_2020_to_Present.csv'
